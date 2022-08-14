@@ -3,12 +3,7 @@ include('includes/session.php');
 $tr = ['Question', 'super-happy', 'happy', 'neutral', 'sad'];
 $questions = ['Do You Satisfied About Clean Level ?', 'Do You Satisfied on Servive Sales ?', 'Are you satisfied with the nursing service ?', 'Are you satisfied with the level of the doctor ?', 'Are you satisfied with the calmness in the hospital ?'];
 $survey = ['super-happy', 'happy', 'neutral', 'sad', 'super-sad'];
-// if (isset($_POST['submit'])) {
-//     if (isset($_POST['raing'])) {
-//         $rate0 = $_POST['rating0'];
-//         $rate1 = $_POST['rating1'];
-//     }
-// }
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -25,7 +20,7 @@ $survey = ['super-happy', 'happy', 'neutral', 'sad', 'super-sad'];
 </head>
 
 <body>
-        <form method="POST" action="result.php" class=" text-center container">
+        <form method="POST" action="result.php" class="text-center container">
             <div class="row">
                 <div class="col-12">
                     <table class="table">
